@@ -1,4 +1,20 @@
-.App {
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.counter {
+  margin-right: 60px;
+}
+.header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkseagreen;
+  background-color: darkgoldenrod;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
