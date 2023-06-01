@@ -4,7 +4,7 @@ import { useState } from "react";
 function ClickingGame() {
   const [counter, setCounter] = useState(0);
   const [wallet, setWallet] = useState(0);
-  const [timer, setTimer] = useState(100);
+  // const [timer, setTimer] = useState(100);
   function incrementFun() {
     if (counter === 0) {
       alert("Start");
@@ -32,11 +32,6 @@ function ClickingGame() {
       setCounter(counter + 50);
       setWallet(wallet + 5);
     }
-    // else if (counter === 1000) {
-    //   alert("gameover");
-    //   setCounter(counter - counter);
-    //   setWallet(wallet - wallet);
-    // }
     // const timer = counter;/
     // setTimer(() => setTimer(timer - 1), 1000);
     // }
